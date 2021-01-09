@@ -1,0 +1,4 @@
+<section>
+    <h1>{{cartService.cart}}</h1>
+    <app-card (newItemEvent)="cartService.addToCart($event)" [items]="items"></app-card>
+</section>
